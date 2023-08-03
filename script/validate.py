@@ -44,7 +44,7 @@ class Activity():
 
     def testcase_check_Node_numbers(self,test_object,credentials,project_id):
         testcase_description="Check GKE Cluster Nodes Count"
-        expected_result=1
+        expected_result="1"
         try:
             is_present = False
             actual = 'GKE Cluster nodes is not '+ str(expected_result)
